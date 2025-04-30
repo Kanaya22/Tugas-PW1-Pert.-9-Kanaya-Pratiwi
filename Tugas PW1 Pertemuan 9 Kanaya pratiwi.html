@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Pendaftaran</title>
+</head>
+<body bgcolor="blue">
+
+  <h2 align="center">Form Pendaftaran</h2>
+
+  <form >
+    <table align="center" cellpadding="8" cellspacing="0" border="0">
+      <tr>
+        <td><label for="nim">NIM</label></td>
+        <td><input type="text" name="nim" id="nim" size="25"></td>
+      </tr>
+      <tr>
+        <td><label for="nama">Nama</label></td>
+        <td><input type="text" name="nama" id="nama" size="25"></td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+          <input type="radio" name="jkel" value="Pria" id="pria"> <label for="pria">Pria</label>
+          <input type="radio" name="jkel" value="Wanita" id="wanita"> <label for="wanita">Wanita</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="agama">Agama</label></td>
+        <td>
+          <select name="agama" id="agama">
+            <option value="Islam">Islam</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td>
+          <input type="radio" name="status" value="Kawin" id="kawin"> <label for="kawin">Kawin</label>
+          <input type="radio" name="status" value="Belum Kawin" id="belum"> <label for="belum">Belum Kawin</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="jurusan">Jurusan</label></td>
+        <td>
+          <select name="jurusan" id="jurusan">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Manajemen Informatika">Manajemen Informatika</option>
+            <option value="Teknik Komputer">Teknik Komputer</option>
+            <option value="Teknik Industri">Teknik Industri</option>
+            <option value="Teknik Elektro">Teknik Elektro</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+            <option value="Teknik Arsitektur">Teknik Arsitektur</option>
+            <option value="PWK">Perencanaan Wilayah dan Kota</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><label for="ket">Keterangan</label></td>
+        <td><textarea name="ket" id="ket" rows="4" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Kirim">
+          <input type="reset" value="Ulang">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
